@@ -1,5 +1,5 @@
-# Don't say very!
-Demo: [https://dont-say-very-andrewb.netlify.app/](https://dont-say-very.netlify.app)
+# Don't say very
+Demo: [https://dont-say-very-andrewb.netlify.app/](https://dont-say-very-andrewb.netlify.app/)
 
 ![](screenshot.png)
 
