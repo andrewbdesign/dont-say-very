@@ -1,11 +1,13 @@
 import React, { useState, ChangeEvent } from 'react';
 import { WordList } from './WordList';
 import { data } from '../data';
+import { Heading, Paragraph } from '../components/Typography';
+
 
 export const WordInputForm: React.FC = () => {
   const [value, setValue] = useState<string>('')
 
-  const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
+  const handleChange = (e: ChangeEvent<HTMLInputElement>) =>   {
     setValue(e.target.value)
   }
 
@@ -16,13 +18,22 @@ export const WordInputForm: React.FC = () => {
   const filterWords: RenderList = (words) => {
     return words.filter(word => word.word.indexOf(value) > -1)
   }
-
+  
   return (
     <React.Fragment>
-      <h1>Don't say very {value}</h1>
-      <form onSubmit={handleSubmit}>
-        <input value={value} onChange={handleChange}/>
-      </form>
+      <main>
+        <section>
+          <Heading>Don't say very</Heading>
+          <Paragraph>Alternate words to use</Paragraph>
+          <form onSubmit={handleSubmit}>
+            <input 
+              value={value} 
+              onChange={handleChange} 
+              placeholder="Type something here"/>
+          </form>
+        </section>
+      </main>
+
       <WordList words={filterWords(data)}/>
     </React.Fragment>
   )
