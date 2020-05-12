@@ -1,12 +1,12 @@
 # Don't say very!
 Demo: [https://dont-say-very-andrewb.netlify.app/](https://dont-say-very.netlify.app)
 
-![](images/screenshot.png)
+![](screenshot.png)
 
 # Inspiration
 This app was inspired by an image I say online.
 
-![](images/inpsiration.wep)
+![](inpsiration.wep)
 
 # Background
 This is Day 8/100 of my #100DaysOfCode challenge on Twitter: [@andrewbdesign](https://twitter.com/andrewbdesign)
