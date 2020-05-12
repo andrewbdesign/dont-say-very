@@ -4,9 +4,9 @@ Demo: [https://dont-say-very-andrewb.netlify.app/](https://dont-say-very.netlify
 ![](screenshot.png)
 
 # Inspiration
-This app was inspired by an image I say online.
+This app was inspired by an image I saw online.
 
-![](inpsiration.wep)
+![](inpsiration.jpg)
 
 # Background
 This is Day 8/100 of my #100DaysOfCode challenge on Twitter: [@andrewbdesign](https://twitter.com/andrewbdesign)
